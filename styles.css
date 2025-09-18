@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.emoji h2 {
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.emoji a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.icon {
+  font-size: 4rem;
+}@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+body {
+  font-family: 'Arvo', Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* Grid layout for the emoji cards container */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual emoji card styling */
+.emoji-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Content inside each card */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Emoji heading */
+.card-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Description paragraph */
+.card-content p {
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.card-content button {
+  align-self: flex-start;
+  background-color: #781BAA;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-content button:hover {
+  background-color: #5e1488;
+}
